@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="heading">
+            <div class="img-container">
+                <img class="hero" src="/images/menu.jpg" alt="Faris' Delicios Flagship Burger ">
+            </div>
+        </header>
+    
+            <div class="menu">
+            </div>
+            <section class="order-section" style="display:none;">
+                <h2>Your Order</h2>
+                <ul class="order-list"></ul>
+                <div class="total-price"></div>
+                <button class="complete-order-button">Complete Order</button>
+              </section>
+    </div>
+    <div id="payment-modal">
+        <form>
+          <label for="name">Name on Card</label>
+          <input type="text" id="name" required>
+      
+          <label for="card-number">Card Number</label>
+          <input type="text" id="card-number" required>
+      
+          <label for="expiry-date">Expiry Date</label>
+          <input type="text" id="expiry-date" required>
+      
+          <button type="submit">Submit Payment</button>
+        </form>
+      </div>
+      
+      
+   
+    <script src="index.js" type="module"></script>
+</body>
+</html>
